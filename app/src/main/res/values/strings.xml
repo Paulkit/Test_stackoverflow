@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Test_stackoverflow</string>
+
+<string name="about_desc"><![CDATA[<a href="/redirect?q=http%3A%2F%2Fwww.link.com%2REAAALYYY-LOOOONG-LIIIINK;redir_token=things-we-dont.need;event=anotherthingwedontneed" class="not-needed-thing" data-url="the same thing again"target="_blank">The.text that.will/be/displayed</a>]]></string>
+</resources>
