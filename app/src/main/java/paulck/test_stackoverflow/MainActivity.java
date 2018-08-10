@@ -8,7 +8,7 @@ import android.webkit.WebViewClient;
 public class MainActivity extends AppCompatActivity {
 
 
-    MyWebView mWebView;
+    WebView mWebView;
 
 
 
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void fillField() {
-        mWebView = (MyWebView) findViewById(R.id.web_view);
+        mWebView = (WebView) findViewById(R.id.web_view);
         mWebView.getSettings().setDomStorageEnabled(true);
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.loadUrl(paypal_url);
